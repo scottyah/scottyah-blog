@@ -1,0 +1,58 @@
+baseURL = 'http://scottyah.com/'
+languageCode = 'en-us'
+title = 'Scottyah Bloggins'
+theme = 'cactus'
+contentdir = "content"
+publishdir = "public"
+googleAnalytics = "UA-56514503-1"
+
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 3
+
+
+[params]
+
+  colortheme = "white" # dark, light, white, or classic
+  rss = true # generate rss feed. default value is false
+  showAllPostsArchive = false
+
+  # Home page settings
+  description = "YAPB: Yet Another Programmer's Blog"
+  mainSection = "posts" # your main section
+  showAllPostsOnHomePage = false
+  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  showProjectsList = true # show projects list by default (if projects data file exists).
+  projectsUrl = "https://github.com/scottyah/scottyah-blog" # title link for projects list
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat = "2006-01-02" # default
+
+  # Post page settings
+  show_updated = true # default
+  showReadTime = true # default
+
+
+  # the value of name should be an valid font awesome icon name (brands type)
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/scottyah"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/scott-hatlen/"
+  [[params.social]]
+    name = "email"
+    link = "scotty.a.h@gmail.com"  # no need for "mailto:" in the head

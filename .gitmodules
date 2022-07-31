@@ -4,3 +4,6 @@
 [submodule "themes/cactus"]
 	path = themes/cactus
 	url = https://github.com/monkeyWzr/hugo-theme-cactus.git
+[submodule "hugo-content/themes/cactus"]
+	path = hugo-content/themes/cactus
+	url = https://github.com/monkeyWzr/hugo-theme-cactus.git
