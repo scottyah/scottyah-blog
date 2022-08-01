@@ -8,4 +8,4 @@ RUN hugo
 FROM nginx:latest as server_stage
 COPY --from=build_stage /opt/scottyah-blog/hugo-content/public/ /usr/share/nginx/html
 EXPOSE 80
-CMD ["nginx"]
+CMD ["nginx", "-g", "daemon off;"]
