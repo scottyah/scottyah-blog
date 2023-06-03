@@ -5,7 +5,7 @@ draft: false
 ---
 
 Here you are:
-![bluster_pic](/img/bluster_pic.jpg)
+![bluster_pic](/img/bluster_pic.webp)
 
 I have six Raspberry Pi's networked together with a shared NAS. That Coral chip is mostly for manual fun for now, but expect an interactive site later.
 
