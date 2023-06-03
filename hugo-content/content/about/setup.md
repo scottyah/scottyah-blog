@@ -20,3 +20,19 @@ Hugo on NGINX Docker container, with cloudfare DDoS prevention and caching.
 - interactive gitlab project so people can edit this site for fun
 - Family photo site w/ secured logins
 - ability to email "observations" and have the site update itself
+
+
+
+---
+Updates:
+You still look the same, but some major changes have happened:
+
+Blog Stack: same as before, except container is running on k3s, replicated with it's own service and does have TLS support
+
+Notes on future improvements:
+- I did the self-hosted gitlab for a bit, it's just too heavy for my little pi's. After about a month the logs filled up my memory card and at the time they were very against using a mounted volume.
+- site is on k3s!
+- TLS achieved! 
+- I had it with my gitlab and pipelines, but again I decided to not redo gitlab. some kind of interactivity needs to happen though
+- family site would still be fun. some kind of app too
+- still a great idea, turns out email on kubernetes is not trivial at the moment...
