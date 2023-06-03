@@ -26,11 +26,16 @@ name = "Projects"
 url = "/projects/"
 weight = 4
 
+[[menu.main]]
+name = "Treasures"
+url = "/Treasures/"
+weight = 5
+
 
 [markup]
   [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
+    endLevel = 5
+    ordered = true
     startLevel = 2
   [markup.highlight]
     codeFences = true
