@@ -1,8 +1,12 @@
-### Prereqs:
-Docker
-Internet connection
+## My personal blog
+In all its glory. Feel free to browse it here like a weirdo, then check it out running as the chef intended at [https://blog.scottyah.com](https://blog.scottyah.com)
 
-### To run:
-git clone https://github.com/scottyah/scottyah-blog.git
-docker build --no-cache -t blog-svr .
-docker run -d -p 80:80 blog-svr
+### To update site
+git pull
+./scripts/make_webp.sh
+git add, commit, and push
+
+log on to p0
+go to blog directory
+chmod +x update.sh
+./update.sh
