@@ -4,7 +4,7 @@ In all its glory. Feel free to browse it here like a weirdo, then check it out r
 ### To update site
 git pull
 cd hugo-content
-hugo new [folder]/[newpage].md
+hugo new [folder]/[newpage].md (i.ie hugo new posts/friyay.md)
 edit the file, making sure to un-draft it if desired 
 ./scripts/make_webp.sh
 git add, commit, and push
