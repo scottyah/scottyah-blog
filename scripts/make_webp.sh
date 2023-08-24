@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Find all files of type PNG, JPEG, or TIFF
-files=$(find ../hugo-content/static/img -type f -iname "*.png" -o -iname "*.jpg" -o -iname "*.tif")
+files=$(find ../hugo-content/static/img/ -type f -iname "*.png" -o -iname "*.jpg" -o -iname "*.tif")
 
 # Loop through all the files in the directory
 for file in $files; do

@@ -12,4 +12,4 @@ git add, commit, and push
 log on to p0
 go to blog scripts directory
 chmod +x update.sh
-./update.shßß
+./update.sh
