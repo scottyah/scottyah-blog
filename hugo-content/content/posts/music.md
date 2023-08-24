@@ -1,7 +1,7 @@
 ---
 title: "Music"
 date: 2023-08-23T21:20:09-07:00
-draft: true
+draft: false
 ---
 
 ### So I bought a syntakt

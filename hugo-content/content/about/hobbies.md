@@ -6,8 +6,10 @@ draft: false
 
 # Current (Obsession):
 ### Paragliding
-I got my P2, and have been to a few different sites. It's truly a fun sport and I can't wait to get my P3 and many more hours in! The feeling of flying just felt so "right" from the beginning- even better than sailing. I had to wait on P3 for a bit with all the wedding planning but will be back in the harness soon.
+I got my P2, and have been to a few different sites. It's truly a fun sport and I can't wait to get my P3 and many more hours in! The feeling of flying just felt so "right" from the beginning- even better than sailing. Working on P3 now!!
 > Old Post:
+> I had to wait on P3 for a bit with all the wedding planning but will be back in the harness soon.
+> Older Post:
 > Currently getting my P1&P2 combo from Torrey Pines. My life is basically work, leetcode, keeping the homefront together, and paragliding.
 > Obviously paragliding is the most fun part!
 ### Hunting
