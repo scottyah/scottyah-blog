@@ -4,7 +4,7 @@ date: 2023-10-04T16:21:56-07:00
 draft: false
 ---
 
-So Airwalk is having a raffle of sorts, to guess the weight of thir new ultralight setup. 
+So Skywalk is having a raffle of sorts, to guess the weight of thir new ultralight setup. 
 The post can be found here: https://www.instagram.com/p/CxfJ63uNub4/
 
 All the weights can easily be found online (if we're to believe them), except for two percieved "tricks": The bag is not specified like the rest of the items, and the apple leaves enough wiggle room for them to just pick pretty much anyone they want.
