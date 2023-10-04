@@ -13,12 +13,12 @@ Regardless, I guessed with an apple weight of 150g, and asked my wife to guess t
 
 | Item                 | Weight in grams | Notes               | Source                                                                                   |
 |----------------------|-----------------|---------------------|------------------------------------------------------------------------------------------|
-| jacket               | 190             | full match on size  | [source](https://www.salewa.com/en-gb/pedroc-2-5l-powertex-light-jacket-men-00-0000028564)   |
-| helmet               | 175             | full match on size  | [source](https://www.salewa.com/en-us/piuma-3-0-helmet-00-0000002244?c=1516676&number=00-0000002244_0000000003) |
-| apple                | 144             | averaged for small/medium | [source](https://weighschool.com/granny-smith-apple-weigh/) |
-| PACE 70 wing         | 1050            | No info on size    | [source](https://skywalk.info/2023/09/21/pace-package-preview/)                             |
-| X-alps rescue        | 784             | full match on size  | [source](https://skywalk.info/project/tapa-x-alps/)                                       |
-| rescue bag           | 90              | full match on size  | [source](https://skywalk.info/project/drop/)                                              |
-| skywalk harness sleeve | 240           | No mention of size  | [source](https://skywalk.info/2023/09/21/pace-package-preview/)                             |
-| bag                  | 315             | full match on size  | [source](https://skywalk.info/2023/09/21/pace-package-preview/)                             |
-|                      | 2988            |                     |                                                                                          |
+| jacket               | 190             | full match on size  | https://www.salewa.com/en-gb/pedroc-2-5l-powertex-light-jacket-men-00-0000028564|
+| helmet               | 175             | full match on size  | https://www.salewa.com/en-us/piuma-3-0-helmet-00-0000002244?c=1516676&number=00-0000002244_0000000003|
+| apple                | 144             | averaged for small/medium | https://weighschool.com/granny-smith-apple-weigh/|
+| PACE 70 wing         | 1050            | No info on size    | https://skywalk.info/2023/09/21/pace-package-preview/|
+| X-alps rescue        | 784             | full match on size  | https://skywalk.info/project/tapa-x-alps/|
+| rescue bag           | 90              | full match on size  | https://skywalk.info/project/drop/|
+| skywalk harness sleeve | 240           | No mention of size  | https://skywalk.info/2023/09/21/pace-package-preview/|
+| bag                  | 315             | full match on size  | https://skywalk.info/2023/09/21/pace-package-preview/|
+|                      | **2988**            |                     |                                                                                          |
