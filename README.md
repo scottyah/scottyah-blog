@@ -11,5 +11,6 @@ git add, commit, and push
 
 log on to p0
 go to blog scripts directory
+git pull
 chmod +x update.sh
 ./update.sh
