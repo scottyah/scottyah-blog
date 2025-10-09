@@ -3,6 +3,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: blog-svc
+  namespace: blog
 spec:
   ports:
     - port: 80
@@ -16,6 +17,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: blog-dep
+  namespace: blog
 spec:
   selector:
     matchLabels:
@@ -34,4 +36,39 @@ spec:
           - containerPort: 80
       imagePullSecrets:
         - name: secret/dockercred
-
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: blog-ingress
+  namespace: blog
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
+    traefik.ingress.kubernetes.io/router.tls: "true"
+spec:
+  ingressClassName: traefik
+  tls:
+  - hosts:
+    - scottyah.com
+    secretName: blog-tls-cert
+  rules:
+  - host: scottyah.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: blog-svc
+            port:
+              number: 80
+  - host: blog.scottyah.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: blog-svc
+            port:
+              number: 80
