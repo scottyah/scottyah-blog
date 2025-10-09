@@ -1,7 +1,7 @@
 ---
 title: "Drunk Blurb"
 date: 2023-06-21T21:51:52-07:00
-draft: false
+draft: true
 ---
 
 Grandad died today.
