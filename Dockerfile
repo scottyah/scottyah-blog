@@ -1,13 +1,13 @@
-FROM alpine:latest as build_stage
+FROM alpine:latest AS build_stage
 WORKDIR /opt
 RUN apk add git hugo
-# Adding this so the repo isn't cached
-ADD https://api.github.com/repos/scottyah/scottyah-blog/git/refs/heads/main version.json
-RUN git clone https://github.com/scottyah/scottyah-blog.git
-WORKDIR /opt/scottyah-blog/hugo-content
+ADD hugo-content /opt/hugo-content
+WORKDIR /opt/hugo-content
 RUN hugo
+ENTRYPOINT ["/bin/ash"]
 
-FROM nginx:latest as server_stage
-COPY --from=build_stage /opt/scottyah-blog/hugo-content/public/ /usr/share/nginx/html
+
+FROM nginx:latest AS server_stage
+COPY --from=build_stage /opt/hugo-content/public/ /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
